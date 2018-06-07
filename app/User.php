@@ -1,5 +1,4 @@
 <?php
-
 namespace App;
 
 use Illuminate\Notifications\Notifiable;
@@ -15,7 +14,16 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'client_id',
+        'role_id',
+        'email',
+        'password',
+        'first_name',
+        'last_name',
+        'middle_name',
+        'gender',
+        'dob',
+        'is_active'
     ];
 
     /**
@@ -24,6 +32,23 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'password',
+        'remember_token'
     ];
+    
+    /**
+     * Get the role that user has
+     */
+    public function role()
+    {
+        return $this->belongsTo('App\UserRole');
+    }
+    
+    /**
+     * Get the client that user has
+     */
+    public function client()
+    {
+        return $this->belongsTo('App\Client');
+    }
 }
