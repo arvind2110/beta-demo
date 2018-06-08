@@ -1,8 +1,8 @@
 <?php
-namespace Application\Repository;
+namespace App\Repository;
 
 use App\Client;
-use Application\Repository\Interfaces\ClientInterface;
+use App\Repository\Interfaces\ClientInterface;
 
 class ClientRepository implements ClientInterface
 {

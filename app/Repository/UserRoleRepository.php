@@ -1,8 +1,8 @@
 <?php
-namespace Application\Repository;
+namespace App\Repository;
 
 use App\UserRole;
-use Application\Repository\Interfaces\UserRoleInterface;
+use App\Repository\Interfaces\UserRoleInterface;
 
 class UserRoleRepository implements UserRoleInterface
 {

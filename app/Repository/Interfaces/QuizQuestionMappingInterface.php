@@ -1,6 +1,6 @@
 <?php 
 
-namespace Application\Repository\Interfaces;
+namespace App\Repository\Interfaces;
 
 interface QuizQuestionMappingInterface extends AppInterface
 {

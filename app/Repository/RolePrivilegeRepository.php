@@ -1,8 +1,8 @@
 <?php
-namespace Application\Repository;
+namespace App\Repository;
 
 use App\RolePrivilege;
-use Application\Repository\Interfaces\RolePrivilegeInterface;
+use App\Repository\Interfaces\RolePrivilegeInterface;
 
 class RolePrivilegeRepository implements RolePrivilegeInterface
 {

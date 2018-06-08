@@ -1,7 +1,7 @@
 <?php
-namespace Application\Repository;
+namespace App\Repository;
 
-use Application\Repository\Interfaces\PrivilegeInterface;
+use App\Repository\Interfaces\PrivilegeInterface;
 use App\Privilege;
 
 class PrivilegeRepository implements PrivilegeInterface

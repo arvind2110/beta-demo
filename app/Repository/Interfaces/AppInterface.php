@@ -1,10 +1,10 @@
 <?php 
 
-namespace Application\Repository\Interfaces;
+namespace App\Repository\Interfaces;
 
 interface AppInterface
 {
-    public static function findAll($columns = []);
+    public static function findAll(array $columns = []);
     
     public static function findById($id);
     

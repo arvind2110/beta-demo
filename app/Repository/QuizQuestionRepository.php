@@ -1,7 +1,7 @@
 <?php
-namespace Application\Repository;
+namespace App\Repository;
 
-use Application\Repository\Interfaces\QuizQuestionInterface;
+use App\Repository\Interfaces\QuizQuestionInterface;
 use App\QuizQuestion;
 
 class QuizQuestionRepository implements QuizQuestionInterface

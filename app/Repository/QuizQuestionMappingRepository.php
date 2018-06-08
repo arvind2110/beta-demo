@@ -1,7 +1,7 @@
 <?php
-namespace Application\Repository;
+namespace App\Repository;
 
-use Application\Repository\Interfaces\QuizQuestionMappingInterface;
+use App\Repository\Interfaces\QuizQuestionMappingInterface;
 use App\QuizQuestionMapping;
 
 class QuizQuestionMappingRepository implements QuizQuestionMappingInterface

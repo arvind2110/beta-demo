@@ -1,8 +1,8 @@
 <?php
-namespace Application\Repository;
+namespace App\Repository;
 
 use App\QuizQuestionOptions;
-use Application\Repository\Interfaces\QuizQuestionOptionsInterface;
+use App\Repository\Interfaces\QuizQuestionOptionsInterface;
 
 class QuizQuestionOptionsRepository implements QuizQuestionOptionsInterface
 {
